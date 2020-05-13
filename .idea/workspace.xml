@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b244c500-732a-4de7-81c6-715822a0739f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZMP53CriWmhSfeogmZKeQThicQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="311" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/workspace_compadre" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\melko\IdeaProjects\CapstoneProject" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="EnhancerAppDriver" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EnhancerAppDriver" />
+      <module name="CapstoneProject" />
+      <option name="ENABLE_SWING_INSPECTOR" value="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b244c500-732a-4de7-81c6-715822a0739f" name="Default Changelist" comment="" />
+      <created>1584645802906</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584645802906</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="16" key="#Custom_Plugin_Repositories" timestamp="1587477471855">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="16" key="#Custom_Plugin_Repositories/0.0.1366.728@0.0.1366.728" timestamp="1587477471855" />
+    <state x="275" y="22" key="#Project_Structure" timestamp="1584646583957">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1584646583957" />
+    <state x="463" y="29" key="#com.intellij.codeInsight.i18n.I18nizeQuickFixDialog_Form" timestamp="1587480997511">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="29" key="#com.intellij.codeInsight.i18n.I18nizeQuickFixDialog_Form/0.0.1366.728@0.0.1366.728" timestamp="1587480997511" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587758574030">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1587758574030" />
+    <state x="450" y="167" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587370003223">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="450" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1587370003223" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1587982616910">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1587982616910" />
+    <state x="412" y="148" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1587480474573">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="412" y="148" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1587480474573" />
+    <state x="534" y="75" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1584646413494">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="534" y="75" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1366.728@0.0.1366.728" timestamp="1584646413494" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587489705084">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1587489705084" />
+    <state x="518" y="73" key="CreateSnapShotAction.MyDialog" timestamp="1587475414434">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="518" y="73" key="CreateSnapShotAction.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1587475414434" />
+    <state x="484" y="119" key="FileChooserDialogImpl" timestamp="1587467344820">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="484" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587467344820" />
+    <state width="1323" height="123" key="GridCell.Tab.0.bottom" timestamp="1588178662833">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="123" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588178662833" />
+    <state width="1323" height="123" key="GridCell.Tab.0.center" timestamp="1588178662833">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="123" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588178662833" />
+    <state width="1323" height="123" key="GridCell.Tab.0.left" timestamp="1588178662833">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="123" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588178662833" />
+    <state width="1323" height="123" key="GridCell.Tab.0.right" timestamp="1588178662833">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="123" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588178662833" />
+    <state x="348" y="63" key="NewModule_or_Project.wizard" timestamp="1585041562367">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="348" y="63" key="NewModule_or_Project.wizard/0.0.1366.728@0.0.1366.728" timestamp="1585041562367" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1587478632466">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587478632466" />
+    <state x="453" y="245" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog" timestamp="1587481391873">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="453" y="245" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog/0.0.1366.728@0.0.1366.728" timestamp="1587481391873" />
+    <state x="87" y="0" key="new project wizard" timestamp="1584646313826">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="87" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1584646313826" />
+    <state x="425" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1588007785924">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="425" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1588007785924" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1587489471038">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1587489471038" />
+  </component>
+</project>
