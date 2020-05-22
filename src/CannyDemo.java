@@ -9,7 +9,6 @@ import javax.swing.JPanel;
 import javax.swing.JSlider;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
-
 import org.opencv.core.Core;
 import org.opencv.core.CvType;
 import org.opencv.core.Mat;
@@ -18,12 +17,11 @@ import org.opencv.core.Size;
 import org.opencv.highgui.HighGui;
 import org.opencv.imgcodecs.Imgcodecs;
 import org.opencv.imgproc.Imgproc;
-
 public class CannyDemo {
-    private static final int MAX_LOW_THRESHOLD = 100;
+    private static final int MAX_LOW_THRESHOLD = 150;
     private static final int RATIO = 3;
     private static final int KERNEL_SIZE = 3;
-    private static final Size BLUR_SIZE = new Size(3,3);
+    private static final Size BLUR_SIZE = new Size(5,5);
     private int lowThresh = 0;
     private Mat src;
     private Mat srcBlur = new Mat();
@@ -31,9 +29,8 @@ public class CannyDemo {
     private Mat dst = new Mat();
     private JFrame frame;
     private JLabel imgLabel;
-
     public CannyDemo(String[] args) {
-        String imagePath = args.length > 0 ? args[0] : "100/R/100_R0_0.bmp"; //"../data/fruits.jpg";
+        String imagePath = args.length > 0 ? args[0] : "./EnhancedImages/21.jpg_enhanced.bmp";
         src = Imgcodecs.imread(imagePath);
         if (src.empty()) {
             System.out.println("Empty image: " + imagePath);
@@ -51,16 +48,13 @@ public class CannyDemo {
         frame.pack();
         frame.setVisible(true);
     }
-
     private void addComponentsToPane(Container pane, Image img) {
         if (!(pane.getLayout() instanceof BorderLayout)) {
             pane.add(new JLabel("Container doesn't use BorderLayout!"));
             return;
         }
-
         JPanel sliderPanel = new JPanel();
         sliderPanel.setLayout(new BoxLayout(sliderPanel, BoxLayout.PAGE_AXIS));
-
         sliderPanel.add(new JLabel("Min Threshold:"));
         JSlider slider = new JSlider(0, MAX_LOW_THRESHOLD, 0);
         slider.setMajorTickSpacing(10);
@@ -76,17 +70,14 @@ public class CannyDemo {
             }
         });
         sliderPanel.add(slider);
-
         pane.add(sliderPanel, BorderLayout.PAGE_START);
         imgLabel = new JLabel(new ImageIcon(img));
         pane.add(imgLabel, BorderLayout.CENTER);
     }
-
     private void update() {
         Imgproc.blur(src, srcBlur, BLUR_SIZE);
-        src.convertTo(src, CvType.CV_32F);
         Imgproc.Canny(srcBlur, detectedEdges, lowThresh, lowThresh * RATIO, KERNEL_SIZE, false);
-        dst = new Mat(src.size(), CvType.CV_32F, Scalar.all(0));
+        dst = new Mat(src.size(), CvType.CV_8UC3, Scalar.all(0));
         src.copyTo(dst, detectedEdges);
         Image img = HighGui.toBufferedImage(dst);
         imgLabel.setIcon(new ImageIcon(img));
@@ -95,7 +86,6 @@ public class CannyDemo {
     public static void main(String[] args) {
         // Load the native OpenCV library
         System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
-
         // Schedule a job for the event dispatch thread:
         // creating and showing this application's GUI.
         javax.swing.SwingUtilities.invokeLater(new Runnable() {
@@ -104,6 +94,5 @@ public class CannyDemo {
                 new CannyDemo(args);
             }
         });
-
     }
 }

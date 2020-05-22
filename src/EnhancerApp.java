@@ -18,6 +18,8 @@ import java.io.InputStream;
 import java.util.HashMap;
 import java.util.List;
 
+import static org.opencv.core.Core.fastAtan2;
+
 public class EnhancerApp {
     private static final int numOfParameters = 6;
     private static final List<Pair<String, String>> labels = GaborLabels.getValues();
@@ -35,6 +37,7 @@ public class EnhancerApp {
     private static File image;
     private static String imagePath, ext;
     private static Mat src;
+    private static Mat enhanced;
 
     EnhancerApp() {
         inputs = new JTextField[numOfParameters];
@@ -85,6 +88,7 @@ public class EnhancerApp {
             @Override
             public void actionPerformed(ActionEvent e) {
                 JFileChooser jfc = new JFileChooser(FileSystemView.getFileSystemView().getHomeDirectory());
+
                 jfc.setDialogTitle("Select an image");
                 jfc.setAcceptAllFileFilterUsed(false);
                 FileNameExtensionFilter filter = new FileNameExtensionFilter("PNG, JPG, BMP images",
@@ -116,8 +120,7 @@ public class EnhancerApp {
             public void actionPerformed(ActionEvent e) {
                 for (int i = 0; i < numOfParameters; i++)
                     parameters.put(labels.get(i).getKey(), inputs[i].getText());
-                Mat enhanced = GaborFilter.blendGaborFilters(src, parameters);
-               // Mat edges = doSobel(enhanced);
+                enhanced = GaborFilter.blendGaborFilters(src, parameters);
                 imshow(enhanced, ext);
             }
         });
@@ -125,32 +128,16 @@ public class EnhancerApp {
         saveBtn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                    JFileChooser jfc = new JFileChooser(FileSystemView.getFileSystemView().getHomeDirectory());
-                    jfc.setDialogTitle("Select an image");
-                    int returnValue = jfc.showSaveDialog(null);
-                    if (returnValue == JFileChooser.APPROVE_OPTION) {
-                        File outputfile = jfc.getSelectedFile();
-                        Image im = imgFrame.getIconImage();
-                        BufferedImage bf = (BufferedImage) (im);
-                        try {
-                            ImageIO.write(bf, ".png", outputfile);
-                        } catch (IOException ex) {
-                            ex.printStackTrace();
-                        }
-                    }
+                int pos = image.getName().lastIndexOf(".");
+                String imageName = "";
+                if(pos != -1) {
+                    imageName = image.getName().substring(0, pos);
+                }
+                String filename = "./EnhancedImages/" + imageName + "_enhanced.bmp";
+                Imgcodecs.imwrite(filename, enhanced);
             }
         });
         basePanel.add(bottomPanel);
     }
-    private Mat doSobel(Mat frame) {
-        Mat gray = new Mat();
-        Imgproc.cvtColor(frame, gray, Imgproc.COLOR_BGR2GRAY);
-        Mat edges = new Mat();
 
-        // Detecting the edges
-        Imgproc.Canny(gray, edges, 60, 60*3);
-
-        return edges;
-
-    }
 }

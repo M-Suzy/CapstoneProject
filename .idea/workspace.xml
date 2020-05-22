@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b244c500-732a-4de7-81c6-715822a0739f" name="Default Changelist" comment="" />
+    <list default="true" id="b244c500-732a-4de7-81c6-715822a0739f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CapstoneProject/CannyDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CapstoneProject/CannyDemo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CapstoneProject/CannyDemo$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CapstoneProject/CannyDemo$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CapstoneProject/CannyDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CapstoneProject/CannyDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CapstoneProject/EnhancerApp$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CapstoneProject/EnhancerApp$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CapstoneProject/EnhancerApp$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CapstoneProject/EnhancerApp$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CapstoneProject/EnhancerApp$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CapstoneProject/EnhancerApp$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CapstoneProject/EnhancerApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CapstoneProject/EnhancerApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CapstoneProject/GaborFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CapstoneProject/GaborFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CannyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CannyDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EnhancerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EnhancerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GaborFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GaborFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sub2/finger.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sub2/finger.jpg" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +31,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZMP53CriWmhSfeogmZKeQThicQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,6 +43,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="311" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/workspace_compadre" />
     <property name="project.structure.last.edited" value="Project" />
@@ -40,7 +59,7 @@
       <recent name="C:\Users\melko\IdeaProjects\CapstoneProject" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.EnhancerAppDriver">
     <configuration name="EnhancerAppDriver" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EnhancerAppDriver" />
       <module name="CapstoneProject" />
@@ -49,6 +68,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CannyDemo" />
+      <module name="CapstoneProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.EnhancerAppDriver" />
+      <item itemvalue="Application.Unnamed" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -76,22 +106,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="29" key="#com.intellij.codeInsight.i18n.I18nizeQuickFixDialog_Form/0.0.1366.728@0.0.1366.728" timestamp="1587480997511" />
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587758574030">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589748370854">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1587758574030" />
-    <state x="450" y="167" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587370003223">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1589748370854" />
+    <state x="450" y="167" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589635747310">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="450" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1587370003223" />
+    <state x="450" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1589635747310" />
     <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1587982616910">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1587982616910" />
-    <state x="412" y="148" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1587480474573">
+    <state x="412" y="148" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1589748369048">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="412" y="148" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1587480474573" />
+    <state x="412" y="148" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1589748369048" />
     <state x="534" y="75" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1584646413494">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -108,22 +138,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="484" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587467344820" />
-    <state width="1323" height="123" key="GridCell.Tab.0.bottom" timestamp="1588178662833">
+    <state width="1323" height="123" key="GridCell.Tab.0.bottom" timestamp="1590087055414">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="123" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588178662833" />
-    <state width="1323" height="123" key="GridCell.Tab.0.center" timestamp="1588178662833">
+    <state width="1323" height="123" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590087055414" />
+    <state width="1323" height="123" key="GridCell.Tab.0.center" timestamp="1590087055413">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="123" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588178662833" />
-    <state width="1323" height="123" key="GridCell.Tab.0.left" timestamp="1588178662833">
+    <state width="1323" height="123" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590087055413" />
+    <state width="1323" height="123" key="GridCell.Tab.0.left" timestamp="1590087055413">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="123" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588178662833" />
-    <state width="1323" height="123" key="GridCell.Tab.0.right" timestamp="1588178662833">
+    <state width="1323" height="123" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590087055413" />
+    <state width="1323" height="123" key="GridCell.Tab.0.right" timestamp="1590087055413">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="123" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588178662833" />
+    <state width="1323" height="123" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590087055413" />
     <state x="348" y="63" key="NewModule_or_Project.wizard" timestamp="1585041562367">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
